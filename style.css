@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.clearfix{
+    content: '';
+    clear: both;
+    
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* main css part */
+
+
+.header{
+   max-width: 100%;
+   background: #8baf8a5e;
+   height: 55px;
+}
+.header-logo{
+    width: 20%;
+}
+.header-logo a{}
+.header-logo a img{}
+.header-menu{
+    width: 60%;
+    text-align: center;
+}
+.header-menu ul{
+    line-height: 50px;
+}
+.header-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: black;
+}
+.header-menu ul li a:hover{
+    color: #24a72ad2;
+    transition: .4s;
+}
+.header-btn{
+    width: 20%;
+    line-height: 10px;
+}
+.header-btn1{
+    display: inline-block;
+    margin-top: 5px;
+
+}
+.header-btn1 button{
+	padding: 10px 20px;
+	font-weight: 900;
+	font-size: 15px;
+	color: #24a72ad2;
+    background: #4581483d;
+    border-radius: 10px;
+}
+.header-btn1 button:hover{
+    background: #156e22a2;
+    color: #fff;
+    transition: .4s;
+}
+.header-btn2{
+    display: inline;
+}
+.header-btn2 button{
+    padding: 10px 20px;
+	font-weight: 900;
+	font-size: 15px;
+	color: #24a72ad2;
+    background: #156e22a2;
+    color: #fff;
+    border-radius: 10px;
+}
+.header-btn2 button:hover{
+    background: #03550f;
+    transition: .4s;
+}
+
+/* Banner-section */
+
+.banner{
+    background: #8baf8a5e;
+    height: 600px;
+}
+.banner-title{
+    width: 50%;
+}
+.banner-title h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 56px;
+	margin-bottom: 80px;
+	margin-top: 60px;
+	padding: 25px;
+}
+.banner-title p{
+    padding: 25px;
+    color: gray;
+}
+.banner-title span{
+    padding: 15px 20px;
+    display: inline-block;
+    background: #4a9144f1;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+span .btn{
+    background: #4a9144f1;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+span i{
+    color: #fff;
+    margin-left: 5px;
+}
+.banner-picture{
+    width: 50%;
+}
+
+/* Service-section */
+
+.service{}
+.service-title{
+    width: 30%;
+    height: auto;
+}
+.service-title h3{
+    padding: 20px;
+    margin-bottom: 10px;
+    color: green;
+}
+.service-title h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.service-title p{
+    padding: 20px;
+    color: gray;
+}
+.service-box{
+    width: 30%;
+}
